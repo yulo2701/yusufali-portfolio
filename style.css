@@ -40,10 +40,9 @@ body {
   z-index: 2;
 }
 
-
 .profile-pic {
   width: 150px; 
-  height: 150px; 
+  height: 150px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center center;
@@ -148,7 +147,7 @@ h2 {
     padding: 2rem 1rem;
   }
   .profile-pic {
-    width: 100px;
+    width: 100px; 
     height: 100px;
     object-position: center center;
   }
@@ -157,8 +156,8 @@ h2 {
 
 @media (max-width: 600px) {
   .profile-pic {
-    width: 65px; 
-    height: 65px;
+    width: 75px; 
+    height: 75px;
     margin-top: 20px;
   }
 

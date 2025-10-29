@@ -37,8 +37,8 @@ body {
 }
 
 .profile-pic {
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center center; /* FIX for klipping */
@@ -155,15 +155,6 @@ body {
   overflow-y: auto;
 }
 
-.profile-pic {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 3px solid #9333ea;
-  object-fit: cover;
-  object-position: top center;
-  margin-bottom: 1rem;
-}
 
 @media (max-width: 600px) {
   .profile-pic {

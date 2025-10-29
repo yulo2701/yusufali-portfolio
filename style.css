@@ -41,6 +41,7 @@ body {
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: center center; /* LEGG TIL ELLER ENDRE DENNE LINJEN */
   border: 3px solid #9333ea;
   margin-bottom: 1rem;
 }

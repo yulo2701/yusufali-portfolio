@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: radial-gradient(circle at 40% 40%, rgba(147,51,234,0.15), transparent 60%),
+              linear-gradient(160deg, #0d1117 20%, #111827 100%);
+  color: #f1f1f1;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 4rem;
+}
+
+.content {
+  max-width: 650px;
+  z-index: 2;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #9333ea;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.1rem;
+  color: #9ba1a6;
+  margin-bottom: 1.2rem;
+}
+
+.about {
+  font-weight: 300;
+  color: #d1d1d1;
+  line-height: 1.6;
+  font-size: 1rem;
+  margin: 0 auto 2rem auto;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.socials a {
+  color: #f1f1f1;
+  font-size: 1.8rem;
+  transition: all 0.3s ease;
+}
+
+.socials a:hover {
+  color: #9333ea;
+  transform: translateY(-3px);
+}
+
+.cv-text {
+  color: #a0a0a0;
+  font-size: 0.95rem;
+  margin-top: 0.7rem;
+}
+
+
+.skills-box {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 300px;
+  background: #151a22;
+  border: 1px solid rgba(147,51,234,0.3);
+  border-radius: 16px;
+  box-shadow: 0 0 25px rgba(147,51,234,0.25);
+  padding: 1.8rem;
+  text-align: left;
+  z-index: 3;
+}
+
+.skills-box h3 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #c084fc;
+  border-bottom: 1px solid rgba(147,51,234,0.3);
+  padding-bottom: 0.5rem;
+}
+
+.skills-box ul {
+  list-style: none;
+  color: #d1d1d1;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.skills-box li {
+  margin-bottom: 0.8rem;
+}
+
+.skills-box strong {
+  color: #b27cff;
+  font-weight: 500;
+}
+
+@media (max-width: 1000px) {
+  .skills-box {
+    position: static;
+    transform: none;
+    margin-top: 2rem;
+    width: 90%;
+  }
+  .hero {
+    flex-direction: column;
+    height: auto;
+    padding: 2rem 1rem;
+  }
+}

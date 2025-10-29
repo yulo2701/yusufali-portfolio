@@ -147,8 +147,8 @@ h2 {
     padding: 2rem 1rem;
   }
   .profile-pic {
-    width: 100px; 
-    height: 100px;
+    width: 120px; 
+    height: 120px;
     object-position: center center;
   }
 }
@@ -156,8 +156,8 @@ h2 {
 
 @media (max-width: 600px) {
   .profile-pic {
-    width: 75px; 
-    height: 75px;
+    width: 95x; 
+    height: 95px;
     margin-top: 20px;
   }
 

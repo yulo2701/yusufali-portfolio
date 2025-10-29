@@ -41,7 +41,7 @@ body {
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: center center; /* LEGG TIL ELLER ENDRE DENNE LINJEN */
+  object-position: center center; /* FIX for klipping */
   border: 3px solid #9333ea;
   margin-bottom: 1rem;
 }
@@ -167,8 +167,8 @@ body {
 
 @media (max-width: 600px) {
   .profile-pic {
-    width: 95px;
-    height: 95px;
+    width: 65px;
+    height: 65px;
     margin-top: 20px;
   }
 
